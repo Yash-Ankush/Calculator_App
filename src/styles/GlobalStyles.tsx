@@ -12,6 +12,15 @@ export const Styles = StyleSheet.create({
         alignItems: "center",
         margin: 8,
     },
+    btnGreen: {
+        backgroundColor: "green", // Set the green color
+        width: 72,
+        height: 72,
+        borderRadius: 24,
+        justifyContent: "center",
+        alignItems: "center",
+        margin: 8,
+    },
     btnDark: {
         width: 72,
         height: 72,

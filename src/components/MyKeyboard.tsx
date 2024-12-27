@@ -119,12 +119,19 @@ export default function MyKeyboard() {
         <Button title="3" onPress={() => handleNumberPress("3")} />
         <Button title="+" isBlue onPress={() => handleOperationPress("+")} />
       </View>
-      <View style={Styles.row}>
+      {/* <View style={Styles.row}>
         <Button title="." onPress={() => handleNumberPress(".")} />
         <Button title="0" onPress={() => handleNumberPress("0")} />
         <Button title="⌫" onPress={() => setFirstNumber(firstNumber.slice(0, -1))} />
         <Button title="=" isBlue onPress={() => getResult()} />
-      </View>
+      </View> */}
+      <View style={Styles.row}>
+    <Button title="." onPress={() => handleNumberPress(".")} />
+    <Button title="0" onPress={() => handleNumberPress("0")} />
+    <Button title="⌫" onPress={() => setFirstNumber(firstNumber.slice(0, -1))} />
+    <Button title="=" isGreen onPress={() => getResult()} /> {/* Green background */}
+</View>
+
     </View>
   );
 };
