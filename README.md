@@ -1,7 +1,3 @@
-Here's a simple **README** text for your React Native Calculator Application:
-
----
-
 # Calculator App (React Native)
 
 A simple, easy-to-use calculator app built with **React Native**. This app performs basic arithmetic operations like addition, subtraction, multiplication, and division.
@@ -54,18 +50,6 @@ A simple, easy-to-use calculator app built with **React Native**. This app perfo
 
 ## Usage
 
-- Open the app on your device or emulator.
+- Open the app on your device or emulator (Expo go) for android.
 - Use the buttons to perform basic calculations.
 - Press `C` to clear the display.
-
-## Contributing
-
-If you'd like to contribute to the project, feel free to fork the repository and submit pull requests with your improvements!
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Feel free to modify the details according to your project, and add any additional features or instructions that you think are relevant! Let me know if you'd like any changes.
